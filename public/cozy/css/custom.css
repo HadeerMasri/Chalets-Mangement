@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Almarai&display=swap');
+*{
+  font-family: 'Almarai', sans-serif !important;
+  font-size: 15px;
+
+}
+
+h1.mb-4.title-right{
+  float: right;
+  text-align: right;
+  max-width: 60%;
+  font-weight: bolder;
+  font-size: 40pt;
+  font-family: 'Almarai', sans-serif !important;
+
+}
+.ftco-section-reservation{
+  direction: rtl;
+}
+.reservation{
+  text-align: initial;
+}
+.dish-menu .menus .text .one-half {
+  width: calc(100% - 80px);
+  text-align: initial;
+  padding-right: 25px;
+}
+.menus.d-flex{
+  float: left;
+  direction: rtl;
+  margin: 1%;
+  max-width: 48%;
+}
+.blog-entry .text .heading {
+  font-size: 20px;
+  margin-bottom: 16px;
+  text-align: right;
+}
+.event-wrap{
+  text-align: right;
+  direction: rtl;
+  float: right;
+}
+footer{
+  text-align: right;direction: rtl
+}
+.ftco-footer-social{
+  display: contents;
+}
+.align-right {
+  text-align: right;
+}
+.features{
+  text-align: right;
+  min-height: 172px;
+}
+.block{
+  display: block;
+}
+.ftco-section-title{
+  text-align: right;
+}
+.contact-section{
+  direction: rtl;
+  text-align: right;
+}
+#ftco-navbar{
+  direction: rtl;
+}
+#ftco-nav{
+  margin-right: 300px;
+}
+
+.room-wrap .text .price  {
+  font-size: 18pt;
+}
+
+h2.h1.font-weight-bold , h2{
+  font-family: 'Almarai', sans-serif !important;
+  font-size: 25px;
+}
+#v-pills-tabContent{
+  margin-top: -30px;
+}
+
+h3{
+  font-family: 'Almarai', sans-serif !important;
+  font-size: 28px;
+}
+
+div.one-forth span.price{
+  font-size: 12pt !important;
+  font-weight: bold;
+
+}
+
+.section-title a , .rev-title{
+  font-weight: bolder;
+  color:#ff6138 !important;
+}
+.mrg{
+  text-align: right;
+  direction: rtl;
+  float: right;
+  margin:auto;
+  margin-top: 30px;
+
+}
+
+.org ,th{
+  background-color:#ff6138 !important;
+
+}
+.org h1{
+  color: white !important;
+
+}
+
+.card-body{
+  min-height: 500px;
+
+}
+hr{
+  opacity:0.1;
+}
