@@ -14,7 +14,7 @@ class AdminUserSeeder extends Seeder
         \Illuminate\Support\Facades\DB::table('users')->insert([
             'name' => 'هدير حسن المصري',
             'email' => 'haderhasan904@gmail.com',
-            'password' => bcrypt('hader1234##'),
+            'password' => bcrypt('123456'),
             'role_id' => 1,
             'IsAdmin' =>1,
             'phone' => '+972594329731',

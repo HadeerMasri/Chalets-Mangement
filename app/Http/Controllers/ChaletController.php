@@ -206,10 +206,8 @@ class ChaletController extends Controller
         $client = new Client();
         $request = $client->request('get', 'https://api.darksky.net/forecast/1e13a3cfa21b5c8af2e02ee8f8b1f53a/31.5017765,34.1866839');
         $response = $request->getBody()->getContents();
-        $weather  = json_decode($response);
         $today = Carbon::now()->toDayDateTimeString();
-
-
+        $weather  = json_decode($response);
         return view('dashboard.main',compact('chalets','users','offers','reservations','messages','chalet','offer','reservation','weather','today'));
     }
 
